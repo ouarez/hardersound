@@ -24,6 +24,12 @@ collections:
           - {label: "Cover Text 2", name: "cover_text_2", widget: "string"}
           - {label: "Intro Text 1", name: "intro_1", widget: "markdown"}
           - {label: "Intro Text 2", name: "intro_2", widget: "markdown"}
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - {label: Icon, name: service_icon, widget: string }
+              - {label: Titre, name: service_title, widget: string }
 
   - name: "settings"
     label: "Paramètres du site"

@@ -28,5 +28,13 @@ intro_2: >-
   l' instrumentation... Vous n'avez qu'à demander et si je n'ai pas ce que vous
   recherchez, j'ai accès à tout un réseau d'artistes et de techniciens
   professionnels.
+services:
+  - service_icon: fas fa-headphones
+    service_title: LIVE / STUDIO SOUND
+  - service_icon: fas fa-music
+    service_title: MUSIC RECORDING / PRODUCTION
+  - service_icon: fas fa-play
+    service_title: MIXING / PLAYING
+  - service_icon: fas fa-microphone
+    service_title: NARRATION AND VOICE-OVER RECORDING
 ---
-

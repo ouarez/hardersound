@@ -3,13 +3,13 @@
 
 // variables
 
-$primary-font: 'Lato', sans-serif;
+$primary-font: 'Montserrat', sans-serif;
 $header-font: 'Montserrat';
 $sans: 'Open Sans', sans-serif;
 $serif: 'Merriweather', serif;
 $primary: #eee;
 $contrast:#666;
-$font-weight:100;
+$font-weight:400;
 
 $red: #b70707;
 $blue: #0275d8;
@@ -108,14 +108,14 @@ header {
   nav.mobile-nav {
     top:75px;
     z-index: 1;
-    background-color:$contrast;
+    background-color:$green;
     a {
-      color:#777;
-      font-size:14px;
+      color:#eee;
+      font-size:18px;
       text-decoration: none;
       margin:0px auto;
       text-transform: uppercase;
-      border-bottom:solid #333 1px;
+      border-bottom:solid lighten($green,5) 1px;
     }
     a:hover {text-decoration:underline;}
   }
@@ -144,6 +144,16 @@ main {
   hr {
     color:$green;
     border:solid $green 2px;
+  }
+
+  .services {
+    div {
+      i {
+        color:#eee;
+        background-color: $green;
+        font-size:4em;
+      }
+    }
   }
 
 } // end main
