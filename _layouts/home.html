@@ -58,13 +58,11 @@ layout: default
 
     <div class="flex flex-wrap pa3">
 
+  {% for item in page.clients %}
       <div class="w-100 w-50-l tc tl-l pa3 pa4-l">
-        {{page.client_1 | markdownify }}
+        {{item.client_text | markdownify }}
       </div>
-
-      <div class="w-100 w-50-l tc tl-l pa3 pa4-l">
-        {{page.client_2 | markdownify }}
-      </div>
+  {% endfor %}
 
     </div>
 
