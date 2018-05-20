@@ -1,0 +1,39 @@
+<footer class="bg-black pv4">
+
+  <div class="container flex items-center ph3">
+
+    <div class="w-100 w-50-l">
+      <h2 class="white mv0 f3">{{site.data.settings.site_title}}</h2>
+    </div>
+
+    <div class="w-100 w-50-l tr social">
+      {% if site.data.settings.url_facebook %}
+      <a href="{{site.data.settings.url_facebook}}">
+        <img class="dib mr3" src="/img/icons/facebook.png" alt="Facebook"/>
+      </a>
+      {% endif %}
+      {% if site.data.settings.url_soundcloud %}
+      <a href="{{site.data.settings.url_soundcloud}}">
+        <img class="dib mr3" src="/img/icons/soundcloud.png" alt="Soundcloud"/>
+      </a>
+      {% endif %}
+      {% if site.data.settings.url_twitter %}
+      <a href="{{site.data.settings.url_twitter}}">
+        <img class="dib mr3" src="/img/icons/twitter.png" alt="Twitter"/>
+      </a>
+      {% endif %}
+      {% if site.data.settings.url_instagram %}
+      <a href="{{site.data.settings.url_instagram}}">
+        <img class="dib mr3" src="/img/icons/instagram.png" alt="Instagram"/>
+      </a>
+      {% endif %}
+      {% if site.data.settings.url_linkedin %}
+      <a href="{{site.data.settings.url_linkedin}}">
+        <img class="dib mr3" src="/img/icons/linkedin.png" alt="Linked In"/>
+      </a>
+      {% endif %}
+    </div>
+
+</div> <!-- end container -->
+
+</footer>

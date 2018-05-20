@@ -1,0 +1,43 @@
+<header class="cover vh-100" style="background-image: url({{page.cover_image}});">
+
+  <div class="header w-100 pv3">
+    <div class="container flex items-center">
+      <a class="logo ttu tracked b f4 w-80 w-30-l pl3 pr5" href="/">
+        {{site.data.settings.site_title}}
+      </a>
+
+      <nav class="main-nav w-80 dn dib-l tr">
+        <a href="/" class="mr4">Home</a>
+        <a href="/bio" class="mr4">Bio</a>
+        <a href="/music" class="mr4">Music</a>
+        <a href="/gallery" class="mr4">Gallery</a>
+        <a href="/contact" class="mr4">Contact</a>
+      </nav>
+
+      <div class="nav-button w-20 tr dn-l">
+        <img alt="MENU" src="/img/icons/nav-menu.svg" class="mr3 mt1"/>
+      </div>
+
+      <nav class="mobile-nav w-100 tc dn absolute">
+        <a href="/" class="db w-100 pv3">Home</a>
+        <a href="/bio" class="db w-100 pv3">Bio</a>
+        <a href="/music" class="db w-100 pv3">Music</a>
+        <a href="/gallery" class="db w-100 pv3">Gallery</a>
+        <a href="/contact" class="db w-100 pv3">Contact</a>
+      </nav>
+
+    </div>
+  </div>
+
+    {% if page.layout == 'home' %}
+
+      <div class="hero w-100 dt vh-100 tc pb5">
+        <div class="dtc v-mid">
+          <h1 class="f1 mv4 b">{{page.cover_text_1}}</h1>
+          <h2 class="f2 white mv4">{{page.cover_text_2}}</h1>
+        </div>
+      </div>
+
+    {% endif %}
+
+</header>
