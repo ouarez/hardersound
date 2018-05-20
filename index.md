@@ -52,5 +52,34 @@ clients:
       - name: Guenilles de roi
       - name: Referendum Take 2/Prise 2
       - name: Helicopter Canada
-    client_title: The National Film Board of Canada / L'Office National du film
+    client_title: The National Film Board of Canada
+  - client_list:
+      - name: Steven Morris
+      - name: George Ungar
+      - name: Jo Joe
+      - name: The Maytone
+      - name: Lynn Taitt
+      - name: Phyllis Dillon
+      - name: Winston Grennan
+      - name: Jesse Stone
+      - name: Florent Sivell
+      - name: Stereo Hot Box
+      - name: Claire Jean-Charles
+      - name: Aldwin Albino
+      - name: Martin Albino
+      - name: The Reluctants
+      - name: Wadadli
+      - name: George Palmer
+      - name: Madi Simmons
+      - name: Marven Denis
+      - name: Edwin Durival
+      - name: LSB at Skol
+    client_title: Independent Music
+  - client_list:
+        - name: Leonard and Bina Ellen Gallery
+        - name: Concordia University Faculty of Fine Art
+        - name: Devora Neumark
+        - name: Les Filles Electriques
+        - name:  Engrenage Noir
+    client_title: Art production & installations
 ---
