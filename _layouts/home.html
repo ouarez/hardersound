@@ -61,8 +61,11 @@ layout: default
   {% for item in page.clients %}
       <div class="w-100 w-50-l tc tl-l pa3 pa4-l">
         <h3>{{item.client_title}}</h3>
-        <hr class="w5 ba dib"/>
-        {{item.client_text | markdownify }}
+        <hr class="w4 ba dib"/>
+        <ul>
+          {% for client in item.client_list %}
+            <li>{{client.name}}</li>
+          {% endfor %}
       </div>
   {% endfor %}
 

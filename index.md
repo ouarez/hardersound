@@ -38,13 +38,19 @@ services:
   - service_icon: fas fa-microphone
     service_title: NARRATION AND VOICE-OVER RECORDING
 clients:
-  - Client:
-      - client: Mate and Orchard Productions
-      - client: XYZ
+  - client_list:
+      - name: Mate and Orchard Productions
+      - name: XYZ
+      - name: Viking International Cruise line
+      - name: The Canadian Center for Architecture
+      - name: Catherine Picard
     client_title: Video and commercial productions
-  - Client:
-      - client: Tiananmen Square
-      - client: Vann "Pianoman" Walls
-    client_title: The National Film Board of Canada/ L'Office National du film
+  - client_list:
+      - name: Tiananmen Square
+      - name: Vann "Pianoman" Walls
+      - name: Fripes de choix
+      - name: Guenilles de roi
+      - name: Referendum Take 2/Prise 2
+      - name: Helicopter Canada
+    client_title: The National Film Board of Canada / L'Office National du film
 ---
-

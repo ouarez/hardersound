@@ -36,10 +36,10 @@ collections:
             fields:
               - {label: Client Category Title, name: client_title, widget: string }
               - label: "Client"
-                name: "Client"
+                name: "client_list"
                 widget: "list"
                 fields:
-                  - {label: Name, name: client, widget: string }
+                  - {label: Name, name: name, widget: string }
 
   - name: "settings"
     label: "Paramètres du site"
