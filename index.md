@@ -5,4 +5,28 @@ description: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasell
 cover_image: /img/harder-sound-cover.jpg
 cover_text_1: HARDER SOUND
 cover_text_2: That was amazing! Do it again.
+intro_1: >-
+  **Harder-Sound studio has survived the wild fluctuations of running a
+  specialized home recording studio since 1980 something.**
+
+
+  Dedicating your life to music necessitates a broad skill set: live sound,
+  studio sound, installation sound, music recording, music production, narration
+  and voice-over recording, mixing, playing... these are all parts of the whole
+  that is Harder Sound. If you require a skill I don't have,  I am connected to
+  a large network of talent in many fields across technical and creative
+  divides... which isn't so much a divide as a continuum.... you know what I
+  mean.  Just ask.
+intro_2: >-
+  **Harder Sound est un studio d'enregistrement spécialisé qui a survécu aux
+  fluctuations du monde de la musique depuis les 30 dernières années.**
+
+
+  Survivre aux aléas de la vie en musique depuis les années 80 requiert
+  plusieurs habiletés. Le son dans toutes ses formes: live,  en studio, en
+  installation; l'enregistrement, le mix, la production, la voix, la narration,
+  l' instrumentation... Vous n'avez qu'à demander et si je n'ai pas ce que vous
+  recherchez, j'ai accès à tout un réseau d'artistes et de techniciens
+  professionnels.
 ---
+
