@@ -21,8 +21,6 @@ layout: default
 
     </div>
 
-
-
   </div> <!-- end container -->
 
 </div>
@@ -38,15 +36,38 @@ layout: default
 
 </div>
 
-  <div class="services w-100 flex flex-wrap justify-center tc pt2 pb5">
+<div class="services w-100 flex flex-wrap justify-center tc pt2 pb5">
 
-    {% for item in page.services %}
+  {% for item in page.services %}
 
-    <div class="w-100 w-40-ns w-20-l ma1 ba b--light-gray br3">
-      <i class="{{item.service_icon}} w-100 db pv5"></i>
-      <span class="db pv3 ph2">{{item.service_title}}</span>
+  <div class="w-100 w-40-ns w-20-l ma1 ba b--light-gray br3">
+    <i class="{{item.service_icon}} w-100 db pv5"></i>
+    <span class="db pv3 ph2">{{item.service_title}}</span>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+<div class="w-100 pv4 ph3 bg-light-gray">
+
+  <div class="container tc mv3">
+
+    <h2 class="f2 mv4">OUR CLIENTS</h1>
+    <hr class="w-20 w-10-l"/>
+
+    <div class="flex flex-wrap pa3">
+
+      <div class="w-100 w-50-l tc tl-l pa3 pa4-l">
+        {{page.client_1 | markdownify }}
+      </div>
+
+      <div class="w-100 w-50-l tc tl-l pa3 pa4-l">
+        {{page.client_2 | markdownify }}
+      </div>
+
     </div>
 
-    {% endfor %}
+  </div> <!-- end container -->
 
-  </div>
+</div>

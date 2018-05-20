@@ -30,6 +30,12 @@ collections:
             fields:
               - {label: Icon, name: service_icon, widget: string }
               - {label: Titre, name: service_title, widget: string }
+          - label: "Clients"
+            name: "clients"
+            widget: "list"
+            fields:
+              - {label: Title, name: client_title, widget: string }
+              - {label: Text, name: client_text, widget: markdown }
 
   - name: "settings"
     label: "Paramètres du site"
