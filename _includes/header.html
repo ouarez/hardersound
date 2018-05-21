@@ -1,5 +1,8 @@
+{% if page.layout == 'home' %}
 <header class="cover vh-100" style="background-image: url({{page.cover_image}});">
-
+{% else %}
+<header>
+{% endif %}
   <div class="header w-100 pv3">
     <div class="container flex items-center">
       <a class="logo ttu tracked b f4 w-80 w-30-l pl3 pr5" href="/">

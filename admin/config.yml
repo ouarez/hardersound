@@ -7,13 +7,23 @@ media_folder: "img"
 
 collections:
 
-  - name: "special-pages"
-    label: "Pages uniques"
+  - name: "music"
+    label: "Music"
+    folder: "_music"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
     delete: false # Prevent users from deleting documents in this collection
     files:
       - name: "home"
         file: "index.md"
-        label: "Éditer la page d'accueil"
+        label: "Edit the home page"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Title", name: "title", widget: "string"}
