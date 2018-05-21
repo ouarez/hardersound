@@ -7,16 +7,6 @@ media_folder: "img"
 
 collections:
 
-  - name: "music"
-    label: "Music"
-    folder: "_music"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "pages"
     label: "Pages"
     delete: false # Prevent users from deleting documents in this collection
@@ -28,7 +18,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
-          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Description (Google)", name: "description", widget: "string"}
           - {label: "Cover Image", name: "cover_image", widget: "image"}
           - {label: "Cover Text 1", name: "cover_text_1", widget: "string"}
           - {label: "Cover Text 2", name: "cover_text_2", widget: "string"}
@@ -50,6 +40,20 @@ collections:
                 widget: "list"
                 fields:
                   - {label: Name, name: name, widget: string }
+
+      - name: "music"
+        file: "music.md"
+        label: "Edit the Music page"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/music" }
+          - {label: "Description (Google)", name: "description", widget: "string"}
+          - label: "Music"
+            name: "music"
+            widget: "list"
+            fields:
+              - {label: SoundCloud Embed Code, name: soundcloud, widget: string }
 
   - name: "settings"
     label: "Paramètres du site"
