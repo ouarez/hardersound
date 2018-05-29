@@ -49,11 +49,39 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/music" }
           - {label: "Description (Google)", name: "description", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown", required: false}
           - label: "Music"
             name: "music"
             widget: "list"
             fields:
               - {label: SoundCloud Embed Code, name: soundcloud, widget: string }
+
+      - name: "gallery"
+        file: "gallery.md"
+        label: "Edit the Gallery page"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "gallery"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/gallery" }
+          - {label: "Description (Google)", name: "description", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown", required: false}
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string }
+              - {label: Description, name: desc, widget: string }
+              - {label: Image, name: image, widget: image }
+
+      - name: "contact"
+        file: "contact.md"
+        label: "Edit the Contact page"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "contact"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/contact" }
+          - {label: "Description (Google)", name: "description", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown", required: false}
 
   - name: "settings"
     label: "Paramètres du site"
@@ -66,44 +94,12 @@ collections:
          file: "_data/settings.yml"
          description: "Paramètres Généraux"
          fields:
-           - {label: "Titre du site", name: "site_title", widget: "string"}
-           - {label: "Logo du site", name: "site_logo", widget: "image"}
-           - {label: "Courriel de contact", name: "site_email", widget: "string", required: false}
-           - {label: "Numéro de téléphone de contact", name: "site_tel", widget: "string", required: false}
-           - {label: "Description du site", name: "site_description", widget: "markdown", required: false}
-           - {label: "Logo bas-de-page", name: "footer_logo", widget: "image", required: false}
-           - {label: "Lien vers page Facebook", name: "url_facebook", widget: "string", required: false}
-           - {label: "Lien vers page Soundcloud", name: "url_soundcloud", widget: "string", required: false}
-           - {label: "Lien vers page Instagram", name: "url_instagram", widget: "string", required: false}
-           - {label: "Lien vers page Twitter", name: "url_twitter", widget: "string", required: false}
-           - {label: "Lien vers page Linked In", name: "url_linkedin", widget: "string", required: false}
-
-       - name: "navigation"
-         label: "Navigation"
-         file: "_data/navigation.yml"
-         description: "Navigation du site"
-         fields:
-          - label: "Navigation principale"
-            name: main_nav
-            widget: object
-            required: false
-            fields:
-              - label: Link
-                name: links
-                widget: list
-                required: false
-                fields:
-                  - {label: Titre, name: title, widget: string}
-                  - {label: URL, name: url, widget: string}
-          - label: "Navigation pied de page"
-            name: bottom_nav
-            widget: object
-            required: false
-            fields:
-              - label: Link
-                name: links
-                widget: list
-                required: false
-                fields:
-                  - {label: Titre, name: title, widget: string}
-                  - {label: URL, name: url, widget: string}
+           - {label: "Website Title", name: "site_title", widget: "string"}
+           - {label: "Website Logo (optional)", name: "site_logo", widget: "image", required: false}
+           - {label: "Contact email", name: "site_email", widget: "string", required: false}
+           - {label: "Phone Number", name: "site_tel", widget: "string", required: false}
+           - {label: "Facebook", name: "url_facebook", widget: "string", required: false}
+           - {label: "Soundcloud", name: "url_soundcloud", widget: "string", required: false}
+           - {label: "Instagram", name: "url_instagram", widget: "string", required: false}
+           - {label: "Twitter", name: "url_twitter", widget: "string", required: false}
+           - {label: "Linked In", name: "url_linkedin", widget: "string", required: false}

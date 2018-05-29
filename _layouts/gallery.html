@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="w-100 pv4 ph2">
+
+  <div class="container tc mv3">
+
+    <h2 class="f2 mv4">GALLERY</h2>
+    <hr class="w-20 w-10-l"/>
+    <p class="w-100 w-60-l ml-auto mr-auto f5 pt4">{{page.content}}</p>
+
+    <div class="gallery flex flex-wrap pv5">
+      {% for item in page.gallery %}
+        <div class="w-100 w-50-ns w-25-l">
+          <a class="db cover ma1" style="background-image:url({{item.image}})" data-fancybox="gallery" href="{{item.image}}" data-caption="{{item.name}} - {{item.desc}}"></a>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div> <!-- end container -->
+
+</div>

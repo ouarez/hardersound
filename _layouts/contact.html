@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="w-100 pv4 ph2">
+
+  <div class="container tc mv3">
+
+    <h2 class="f2 mv4">CONTACT US</h2>
+    <hr class="w-20 w-10-l"/>
+    <p class="w-100 w-60-l ml-auto mr-auto f5 pt4">{{page.content}}</p>
+
+    <i class="w-100 pt3 pb2 fas fa-phone dark-gray f4">
+    <span class="f4">{{site.data.settings.site_tel}}</span></i>
+
+    <i class="w-100 fas fa-envelope dark-gray f4">
+    <span class="f4">{{site.data.settings.site_email}}</span></i>
+
+        <form name="contact" data-netlify="true" class="w-100 pv3">
+
+          <div class="w-100 w-50-l fl mv3 ph3">
+            <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 silver f5" placeholder="Name*" type="text" name="name" id="name" required>
+            <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 silver f5" placeholder="Telephone (xxx-xxx-xxxx)" type="tel" name="tel" id="tel" pattern="^\d{3}-\d{3}-\d{4}$">
+            <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 silver f5" placeholder="Email*" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            <input class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 silver f5" placeholder="Subject*" type="text" name="subject" id="subject" required>
+            <input class="w-100 pa3 mv2 input-reset ba b--light-gray br2 white f5 pointer" type="submit" value="Send">
+          </div>
+
+          <div class="w-100 w-50-l fl mv3 ph3">
+            <textarea class="w-100 pa3 mv2 input-reset ba b--light-gray bg-near-white br2 silver f5" placeholder="Message*" name="message" id="message" required></textarea>
+          </div>
+
+        </form>
+
+  </div> <!-- end container -->
+
+</div>

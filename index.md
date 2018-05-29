@@ -1,7 +1,9 @@
 ---
 layout: home
-title: Home
-description: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet iaculis elit. Nam semper ut arcu non placerat. Praesent nibh massa varius.'
+title: Music and sound recording in Montreal
+description: 'Home recording studio that specializes in live sound,
+studio sound, installation sound, music recording, music production, narration
+and voice-over recording, mixing, playing... '
 cover_image: /img/harder-sound-cover.jpg
 cover_text_1: HARDER SOUND
 cover_text_2: That was amazing! Do it again.
