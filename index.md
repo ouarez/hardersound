@@ -1,9 +1,10 @@
 ---
 layout: home
 title: Music and sound recording in Montreal
-description: 'Home recording studio that specializes in live sound,
-studio sound, installation sound, music recording, music production, narration
-and voice-over recording, mixing, playing... '
+description: >-
+  Home recording studio that specializes in live sound, studio sound,
+  installation sound, music recording, music production, narration and
+  voice-over recording, mixing, playing... 
 cover_image: /img/harder-sound-cover.jpg
 cover_text_1: HARDER SOUND
 cover_text_2: That was amazing! Do it again.
@@ -50,8 +51,7 @@ clients:
   - client_list:
       - name: Tiananmen Square
       - name: Vann "Pianoman" Walls
-      - name: Fripes de choix
-      - name: Guenilles de roi
+      - name: Fripes de choix guenilles de roi
       - name: Referendum Take 2/Prise 2
       - name: Helicopter Canada
     client_title: The National Film Board of Canada
@@ -78,10 +78,11 @@ clients:
       - name: LSB at Skol
     client_title: Independent Music
   - client_list:
-        - name: Leonard and Bina Ellen Gallery
-        - name: Concordia University Faculty of Fine Art
-        - name: Devora Neumark
-        - name: Les Filles Electriques
-        - name:  Engrenage Noir
+      - name: Leonard and Bina Ellen Gallery
+      - name: Concordia University Faculty of Fine Art
+      - name: Devora Neumark
+      - name: Les Filles Electriques
+      - name: Engrenage Noir
     client_title: Art production & installations
 ---
+
