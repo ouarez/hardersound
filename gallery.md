@@ -5,9 +5,6 @@ description: >-
   Home recording studio that specializes in live sound, studio sound,
   installation sound, music recording, music production, narration and
   voice-over recording, mixing, playing... 
-content: >-
-  The studio contains a variety of equipment, and occasionally one or two of our
-  pets.
 gallery:
   - desc: Brief description of the image here..
     image: /img/hardersound-mixer.jpg
@@ -25,4 +22,4 @@ gallery:
     image: /img/keyboard.jpg
     name: Image 5
 ---
-
+The studio contains a variety of equipment, and occasionally one or two of our pets.
