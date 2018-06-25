@@ -5,7 +5,7 @@ description: >-
   Home recording studio that specializes in live sound, studio sound,
   installation sound, music recording, music production, narration and
   voice-over recording, mixing, playing... 
-content: THis is a sentence made out of words.
+content: ''
 music:
   - soundcloud: >-
       <iframe width="100%" height="166" scrolling="no" frameborder="no"
