@@ -21,5 +21,3 @@ gallery:
     desc: Brief description of the image here..
     image: /img/keyboard.jpg
 ---
-
-The studio contains a variety of equipment, and occasionally one or two of our pets.
