@@ -85,15 +85,15 @@ collections:
           - {label: "Content", name: "body", widget: "markdown", required: false}
 
   - name: "settings"
-    label: "Paramètres du site"
+    label: "Website Parameters"
     delete: false # Prevent users from deleting documents in this collection
     editor:
      preview: false
     files:
        - name: "general"
-         label: "Général"
+         label: "General"
          file: "_data/settings.yml"
-         description: "Paramètres Généraux"
+         description: "General Settings"
          fields:
            - {label: "Website Title", name: "site_title", widget: "string"}
            - {label: "Website Logo (optional)", name: "site_logo", widget: "image", required: false}
