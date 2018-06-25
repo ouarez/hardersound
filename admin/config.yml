@@ -22,6 +22,7 @@ collections:
           - {label: "Cover Image", name: "cover_image", widget: "image"}
           - {label: "Cover Text 1", name: "cover_text_1", widget: "string"}
           - {label: "Cover Text 2", name: "cover_text_2", widget: "string"}
+          - {label: "Intro Title", name: "intro_title", widget: "string"}
           - {label: "Intro Text 1", name: "intro_1", widget: "markdown"}
           - {label: "Intro Text 2", name: "intro_2", widget: "markdown"}
           - label: "Services"
