@@ -8,7 +8,7 @@ description: >-
 cover_image: /img/harder-sound-cover.jpg
 cover_text_1: HARDER SOUND
 cover_text_2: That was amazing! Do it again.
-intro_title: test
+intro_title: About
 intro_1: >-
   **Harder-Sound studio has survived the wild fluctuations of running a
   specialized home recording studio since 1980 something.**
@@ -33,7 +33,7 @@ intro_2: >-
   recherchez, j'ai accès à tout un réseau d'artistes et de techniciens
   professionnels.
 services:
-  - service_icon: fas fa-headphones-alt
+  - service_icon: fas fa-headphones
     service_title: LIVE / STUDIO SOUND
   - service_icon: fas fa-music
     service_title: MUSIC RECORDING / PRODUCTION
