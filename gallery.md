@@ -21,5 +21,8 @@ gallery:
   - desc: Brief description of the image here..
     image: /img/keyboard.jpg
     name: Image 5
+  - desc: Recording in December 2020
+    image: /img/martin_albino.jpg
+    name: Martin Albino
 ---
 The studio contains a variety of equipment, and occasionally one or two of our pets.
