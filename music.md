@@ -7,6 +7,16 @@ description: >-
   voice-over recording, mixing, playing... 
 music:
   - soundcloud: >-
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/1ZHDsH1BVNk" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  - soundcloud: >-
+      <iframe width="100%" height="166" scrolling="no" frameborder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/73302821&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  - soundcloud: >-
       <iframe width="100%" height="166" scrolling="no" frameborder="no"
       allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1038071269&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true"></iframe><div
@@ -48,15 +58,5 @@ music:
       <iframe width="100%" height="166" scrolling="no" frameborder="no"
       allow="autoplay"
       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281397567&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-  - soundcloud: >-
-      <iframe width="100%" height="166" scrolling="no" frameborder="no"
-      allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/73302821&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-  - soundcloud: >-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/1ZHDsH1BVNk" title="YouTube video
-      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-      encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
 ---
 
